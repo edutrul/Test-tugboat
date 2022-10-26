@@ -50,7 +50,6 @@ services:
         echo '......'
         echo '......'
         echo '......'
-        echo "I am running site install...."
 
         # WebP
         echo '......'
@@ -58,13 +57,31 @@ services:
         apt-get install -y libwebp-dev libwebp6 webp libmagickwand-dev
         echo '......'
         echo '......'
+        echo '......'
+        echo 'Install docker......'
         docker-php-ext-configure gd --with-freetype --with-jpeg --with-webp
+        echo '......'
+        echo '......'
+        echo '......'
+        echo 'Install docker. install.....'
         docker-php-ext-install gd
+        echo '......'
+        echo '......'
+        echo '......'
+        echo '......'
 
         # Configure GD
         apt-get update && apt-get install -y libpng-dev libjpeg-dev libfreetype6-dev
+        echo '......'
+        echo '......'
+        echo '......'
+        echo 'Install docker configure gd......'
         docker-php-ext-configure gd --with-jpeg --with-freetype && docker-php-ext-install gd
 
+  echo '......'
+  echo '......'
+  echo '......'
+  
         # Install drush-launcher, if desired.
         wget -O /usr/local/bin/drush https://github.com/drush-ops/drush-launcher/releases/download/0.6.0/drush.phar
         chmod +x /usr/local/bin/drush
