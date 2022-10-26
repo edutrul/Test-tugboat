@@ -106,10 +106,10 @@ services:
         # Install
         echo "Install drush"
         drush site:install
-#        if [[ "drush site:install --standard-profile" == "NULL" ]]; then
-#          echo -e "FATAL ERROR: Not installed"
-#          exit 1
-#        fi
+        if [[ "drush site:install --standard-profile" == "NULL" ]]; then
+          echo -e "FATAL ERROR: Not installed"
+          exit 1
+        fi
 
       # Commands that build the site. This is where you would add things
       # like feature reverts or any other drush commands required to
