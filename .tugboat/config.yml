@@ -89,7 +89,7 @@ services:
 
         # Install
         echo "I am running site install...."
-#        drush site:install
+        drush site:install
 #        if [[ "drush site:install --standard-profile" == "NULL" ]]; then
 #          echo -e "FATAL ERROR: Not installed"
 #          exit 1
