@@ -1,0 +1,22 @@
+{
+    "require": {
+        "drush/drush": "^11.3",
+        "lullabot/drainpipe": "@dev"
+    },
+    "extra": {
+        "drainpipe": {
+            "tugboat": []
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/Users/axel/Desktop/Projects/drainpipe"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "lullabot/drainpipe": true
+        }
+    }
+}
