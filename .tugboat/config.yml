@@ -105,7 +105,7 @@ services:
         composer install
 
         # Install Drupal using the standard profile.
-        vendor/bin/task drupal:install
+        # vendor/bin/task drupal:install
 
         # To use an existing site, add the appropriate environment variables
         # as document at <LINK> and instead run:
@@ -114,7 +114,8 @@ services:
 
         # Install
         echo "Install drush"
-        drush site:install
+        # drush site:install
+        vendor/bin/drush site-install
         if [[ "drush site:install == "NULL" ]]; then
           echo -e "FATAL ERROR: Not installed"
           exit 1
