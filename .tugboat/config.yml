@@ -44,6 +44,12 @@ services:
         # repository, change that here. This example links /web to the docroot
         [ -d "${DOCROOT}" ] || ln -snf "${TUGBOAT_ROOT}/web" "${DOCROOT}"
         
+        echo '......'
+        echo '......'
+        echo '......'
+        
+        echo 'Hello
+        
         echo ${TUGBOAT_ROOT}/web
         echo ${DOCROOT}
 
