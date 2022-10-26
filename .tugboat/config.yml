@@ -61,7 +61,7 @@ services:
         echo '......'
         echo '......'
         echo '......'
-        exho 'Configure GD ......'
+        echo 'Configure GD ......'
 
         # Configure GD
         apt-get update && apt-get install -y libpng-dev libjpeg-dev libfreetype6-dev
