@@ -1447,49 +1447,6 @@
             "time": "2021-11-16T10:29:06+00:00"
         },
         {
-            "name": "lullabot/drainpipe",
-            "version": "dev-96-tugboat-configure-gd",
-            "dist": {
-                "type": "path",
-                "url": "/Users/axel/Desktop/Projects/drainpipe",
-                "reference": "2eb619399191a8b88e3a2b6a2c221534fb8868e8"
-            },
-            "require": {
-                "composer-plugin-api": "^2.0",
-                "drush/drush": "^10|^11",
-                "php": "^7.3||^8.0",
-                "symfony/yaml": "^3|^4"
-            },
-            "require-dev": {
-                "composer/composer": "^2.0",
-                "phpunit/phpunit": "^7|^8|^9"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": [
-                    "\\Lullabot\\Drainpipe\\ScaffoldInstallerPlugin",
-                    "\\Lullabot\\Drainpipe\\BinaryInstallerPlugin"
-                ]
-            },
-            "autoload": {
-                "psr-4": {
-                    "Lullabot\\Drainpipe\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Lullabot\\Drainpipe\\Tests\\Functional\\": "tests/src/functional/"
-                }
-            },
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "description": "An automated build tool to allow projects to have a set standardized operations scripts.",
-            "transport-options": {
-                "relative": false
-            }
-        },
-        {
             "name": "nikic/php-parser",
             "version": "v4.15.1",
             "source": {
