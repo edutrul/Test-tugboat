@@ -46,10 +46,18 @@ services:
 
         docker-php-ext-install opcache
         a2enmod headers rewrite
+        
+        echo '......'
+        echo '......'
+        echo '......'
         echo "I am running site install...."
 
         # WebP
+        echo '......'
+        echo 'Install apt......'
         apt-get install -y libwebp-dev libwebp6 webp libmagickwand-dev
+        echo '......'
+        echo '......'
         docker-php-ext-configure gd --with-freetype --with-jpeg --with-webp
         docker-php-ext-install gd
 
