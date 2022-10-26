@@ -70,7 +70,7 @@ services:
         echo '......'
         echo '......'
         echo '......'
-        exho 'Install drush launcher ......'
+        echo 'Install drush launcher ......'
   
         # Install drush-launcher, if desired.
         wget -O /usr/local/bin/drush https://github.com/drush-ops/drush-launcher/releases/download/0.6.0/drush.phar
