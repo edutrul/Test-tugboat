@@ -117,16 +117,6 @@ services:
         # drush site:install
         
         
-        echo '......'
-        echo '......'
-        echo '......'
-
-        source ~/.bash_profile
-
-        echo '......'
-        echo '......'
-        echo '......'
-        
         
         
         drush site:install
