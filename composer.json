@@ -1,7 +1,7 @@
 {
     "require": {
         "drush/drush": "^11.3",
-        "lullabot/drainpipe": "@dev"
+        "lullabot/drainpipe": "^1.2"
     },
     "extra": {
         "drainpipe": {

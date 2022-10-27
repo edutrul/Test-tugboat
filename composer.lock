@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b40eee06fbd34ea3892e86267fcde95b",
+    "content-hash": "bd65d1a2713941ef4cdd4e859f38e58f",
     "packages": [
         {
             "name": "chi-teck/drupal-code-generator",
@@ -1445,6 +1445,53 @@
                 }
             ],
             "time": "2021-11-16T10:29:06+00:00"
+        },
+        {
+            "name": "lullabot/drainpipe",
+            "version": "v1.2.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Lullabot/drainpipe.git",
+                "reference": "10726683a26ae415fc3214ca740106e538153d0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/10726683a26ae415fc3214ca740106e538153d0c",
+                "reference": "10726683a26ae415fc3214ca740106e538153d0c",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.0",
+                "drush/drush": "^10|^11",
+                "php": "^7.3||^8.0",
+                "symfony/yaml": "^3|^4"
+            },
+            "require-dev": {
+                "composer/composer": "^2.0",
+                "phpunit/phpunit": "^7|^8|^9"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": [
+                    "\\Lullabot\\Drainpipe\\ScaffoldInstallerPlugin",
+                    "\\Lullabot\\Drainpipe\\BinaryInstallerPlugin"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lullabot\\Drainpipe\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "An automated build tool to allow projects to have a set standardized operations scripts.",
+            "support": {
+                "issues": "https://github.com/Lullabot/drainpipe/issues",
+                "source": "https://github.com/Lullabot/drainpipe/tree/v1.2.16"
+            },
+            "time": "2022-08-03T10:07:40+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -3314,9 +3361,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "lullabot/drainpipe": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
