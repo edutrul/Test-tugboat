@@ -1499,12 +1499,12 @@
         },
         {
             "name": "lullabot/drainpipe",
-            "version": "dev-96-tugboat-configure-gd",
-            "version_normalized": "dev-96-tugboat-configure-gd",
+            "version": "dev-96-tugboat-readme",
+            "version_normalized": "dev-96-tugboat-readme",
             "dist": {
                 "type": "path",
                 "url": "/Users/axel/Desktop/Projects/drainpipe",
-                "reference": "2eb619399191a8b88e3a2b6a2c221534fb8868e8"
+                "reference": "ef0f5057b60e7343a563a9a4611c31537e38786e"
             },
             "require": {
                 "composer-plugin-api": "^2.0",
