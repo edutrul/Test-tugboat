@@ -3366,5 +3366,13 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.3.0",
+    "require": {
+        "drush/drush": "8.*"
+    },
+    "extra": {
+        "installer-paths": {
+            "core": ["type:drupal-core"]
+        }
+    }
 }
